@@ -1,11 +1,11 @@
 # One-click deploy dokku on DigitalOcean
 
-### local
+### Local
 ```
 git remote add dokku dokku@chiwei.fun:citygem.chiwei.fun
 git push dokku master
 ```
-### server side
+### Server side
 ```
 dokku apps:create citygem
 
